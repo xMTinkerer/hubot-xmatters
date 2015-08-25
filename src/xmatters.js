@@ -182,7 +182,7 @@ module.exports = function( robot ) {
       }
       else if( type === 'response' ) {
           msgText += bodyJSON.recipient + ' responded "' + bodyJSON.response + '" on ' + bodyJSON.device
-          if( bodyJSON.annotation != 'null' )
+          if( bodyJSON.annotation != null )
               msgText += ': ' + bodyJSON.annotation
       }
       else {

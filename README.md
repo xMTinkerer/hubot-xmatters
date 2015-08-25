@@ -19,12 +19,12 @@ Then add **hubot-xmatters** to your `external-scripts.json`:
 ```
 
 ### xMatters
-1. Download the Hubot Communications Plan from the xMatters website [https://support.xmatters.com/hc/](here)
+1. Download the Hubot Communications Plan from the xMatters website [here](https://support.xmatters.com/hc/)
 2. Create a new REST Web Service User
 
 ## Usage
-`hubot send event "<groups|users>" <message>` - Send an event to a list of users or groups comma separated with a message
-`hubot send event "all" <message>` - Send an event to all users in the channel/room. Note that the slack names need to match the xMatters usernames
+1. `hubot send event "<groups|users>" <message>` - Send an event to a list of users or groups comma separated with a message
+2. `hubot send event "all" <message>` - Send an event to all users in the channel/room. Note that the slack names need to match the xMatters usernames
 
 ## Sample Interaction
 

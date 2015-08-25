@@ -1,28 +1,21 @@
 {
   "name": "hubot-xmatters",
   "description": "A hubot script to send events to xMatters and listen for callbacks.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "xMTinkerer <tdepuy@xmatters.com>",
   "license": "MIT",
-
   "keywords": "hubot, hubot-scripts, xmatters, sms, email, mobile, voice, phone",
-
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-xmatters.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-xmatters/issues"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "peerDependencies": {
     "hubot": "2.x"
   },
-
   "devDependencies": {
     "chai": "^2.1.1",
     "coffee-script": "1.6.3",
@@ -37,9 +30,7 @@
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }

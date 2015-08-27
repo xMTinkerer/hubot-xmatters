@@ -178,7 +178,11 @@ module.exports = function( robot ) {
           msgText += 'has a status of ' + bodyJSON.status;
       }
       else if( type === 'deliveryStatus' ) {
-          msgText += bodyJSON.deliveryStatus + ' ' + bodyJSON.device + ' to ' + bodyJSON.recipient;
+          if( bodyJSON.deliveryStatus == 'Failed' )
+            msgText += bodyJSON.deliveryStatus + ' sending to ' + bodyJSON.recipient;
+          
+          else
+            msgText += bodyJSON.deliveryStatus + ' ' + bodyJSON.device + ' to ' + bodyJSON.recipient;
       }
       else if( type === 'response' ) {
           msgText += bodyJSON.recipient + ' responded "' + bodyJSON.response + '" on ' + bodyJSON.device

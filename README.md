@@ -19,7 +19,7 @@ Then add **hubot-xmatters** to your `external-scripts.json`:
 ```
 
 ### xMatters
-1. Download the Hubot Communications Plan from the xMatters website [here](https://support.xmatters.com/hc/)
+1. Download the Hubot Communications Plan from the xMatters website [here](https://support.xmatters.com/hc/admin/articles/206271755)
 2. Create a new REST Web Service User
 
 ## Usage

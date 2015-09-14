@@ -182,7 +182,7 @@ module.exports = function( robot ) {
             msgText += bodyJSON.deliveryStatus + ' sending to ' + bodyJSON.recipient;
           
           else
-            msgText += bodyJSON.deliveryStatus + ' ' + bodyJSON.device + ' to ' + bodyJSON.recipient;
+            msgText += bodyJSON.deliveryStatus + ' on ' + bodyJSON.device + ' to ' + bodyJSON.recipient;
       }
       else if( type === 'response' ) {
           msgText += bodyJSON.recipient + ' responded "' + bodyJSON.response + '" on ' + bodyJSON.device

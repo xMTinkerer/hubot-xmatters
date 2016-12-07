@@ -23,14 +23,13 @@ Then add **hubot-xmatters** to your `external-scripts.json`, for example:
 2. Create a new REST Web Service User
 3. Set the credentials in the appropriate environment variables:
 
-**EXPRESS_PORT** - The port hubot will listen on for callbacks from xMatters
-**EXPRESS_USER** - Username for basic authentication from xMatters
-**EXPRESS_PASSWORD** - Password for basic authentication from xMatters
-**EXPRESS_ADDRESS** - Hostname and protocol for xMatters to make callbacks
-
-**XMATTERS_REST_USERNAME** - Username of the user to authenticate to xMatters
-**XMATTERS_REST_PASSWORD** - Password of the user to authenticate to xMatters
-**XMATTERS_URL** - The xMatters web service URL endpoint for sending events (retrieved from the form, as explained above).
+- **EXPRESS_PORT** - The port hubot will listen on for callbacks from xMatters
+- **EXPRESS_USER** - Username for basic authentication from xMatters
+- **EXPRESS_PASSWORD** - Password for basic authentication from xMatters
+- **EXPRESS_ADDRESS** - Hostname and protocol for xMatters to make callbacks
+- **XMATTERS_REST_USERNAME** - Username of the user to authenticate to xMatters
+- **XMATTERS_REST_PASSWORD** - Password of the user to authenticate to xMatters
+- **XMATTERS_URL** - The xMatters web service URL endpoint for sending events (retrieved from the form, as explained above).
 
 Per hubot standard startup, these are generally set as environment variables when the bot is started. For example:
 
